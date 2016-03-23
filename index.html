@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bugger by Ben</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<!---Bootstrap Navbar-->
+	<nav class="navbar navbar-fixed-top navbar-custom">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Bugger</a>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<!---Page Header -->
+		<div class="page-header">
+		  <h1>Bugger <span class="glyphicon glyphicon-hand-down" aria-hidden="true" ></span> </h1>
+		  <small>A cutting edge new game as part of the <a href = "http://www.udacity.com">Udacity</a> Front End Nanodegree.</small>
+		</div>
+		<!---Canvas-->
+		<div row>
+			<div class="col-md-9">
+				<div id="gameCanvas">
+
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="panel panel-danger">
+					<div class = "panel-heading">
+						<h2>Score</h2>
+					</div>
+					<div class="panel-body">
+						<h1 id="score">0
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Modal 1-->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Success!!!!! </h4>
+      </div>
+      <div class="modal-body">
+        <p>You made it, Score +20</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div id="collisionModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Oh No !!! </h4>
+      </div>
+      <div class="modal-body">
+        <p>You got eaten by a bug</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<footer class ="footer">
+	<h4>A quality game created by Ben <span class="glyphicon glyphicon-flash" aria-hidden="true" ></span></h4>
+</footer>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

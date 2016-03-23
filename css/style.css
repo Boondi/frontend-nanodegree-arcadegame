@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    padding-top: 50px;
+}
+.page-header{
+	min-height: 100px;
+}
+canvas {
+	background-color: #f8f8f8;
+	padding:30px ;
+}
+footer{
+	background-color: #e74c3c;
+	padding-top: 30px;
+  left:0px;
+  bottom:0px;
+  height:100px;
+  width:100%;
+	color: #fff;
+}
+.navbar-custom {
+  background-color: #e74c3c;
+  border-color: #c0392b;
+  color: white;
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+
+
+
